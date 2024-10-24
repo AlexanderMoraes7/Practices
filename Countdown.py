@@ -2,7 +2,7 @@ import datetime
 
 class Contagem():
     def __init__(self):
-        self.__x = datetime.datetime.now() #(2020,5,17,13,30)
+        self.__x = datetime.datetime.now()
         self._lunch = 12
         self.__go_out = 16
         self.__go_out_minut = 50
